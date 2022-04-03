@@ -9,3 +9,5 @@ Next.js のテンプレートリポジトリです。
 - TypeScript
 - Storybook
 - Jest
+- Styled-components
+- MSW (Mock Service Worker)
