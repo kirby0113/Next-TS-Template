@@ -8,4 +8,9 @@ module.exports = {
       tsconfig: "./tsconfig.test.json",
     },
   },
+  transform: {
+    "^.+\\.(ts|tsx)$": "ts-jest",
+    "^.+\\.(js)$": "babel-jest",
+  },
+  transformIgnorePatterns: [],
 };
