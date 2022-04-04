@@ -1,6 +1,6 @@
-import React from "react";
-import { render, cleanup } from "@testing-library/react";
-import Home from "../pages/index";
+import React from 'react';
+import { render, cleanup } from '@testing-library/react';
+import Home from '../pages/index';
 
 // const sleep = (value: number) =>
 //   new Promise((resolve) => setTimeout(resolve, value));
@@ -9,7 +9,7 @@ import Home from "../pages/index";
 //   children: ReactNode;
 // };
 
-jest.mock("next/router", () => ({
+jest.mock('next/router', () => ({
   useRouter() {
     return {
       push: jest.fn(String),
@@ -19,9 +19,9 @@ jest.mock("next/router", () => ({
 
 afterEach(cleanup);
 
-describe("導入テスト", () => {
-  it("表示される？", async () => {
+describe('導入テスト', () => {
+  it('表示される？', async () => {
     const { findByText } = render(<Home />);
-    expect(await findByText("indexページ")).toBeTruthy();
+    expect(await findByText('indexページ')).toBeTruthy();
   });
 });

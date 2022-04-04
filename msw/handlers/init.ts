@@ -1,4 +1,4 @@
-import { testMockInit } from "./testHandle";
+import { testMockInit } from './testHandle';
 
 export const mockDataInit = () => {
   testMockInit();
