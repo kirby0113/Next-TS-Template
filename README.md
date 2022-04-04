@@ -12,10 +12,18 @@ Next.js のテンプレートリポジトリです。
 - Next.js
 - TypeScript
 
+### Git hooks
+- husky
+- boxen
+
 ### コンポーネント開発
 
 - Storybook
 - Styled-components (CSS in JS)
+
+### コード整形
+- eslint
+- prettier
 
 ### テスト用
 
