@@ -42,5 +42,5 @@ Next.js のテンプレートリポジトリです。
 
 - クローンしたいディレクトリで以下コマンド実行
 ```
-https://github.com/USERNAME/REPOSITORYNAME.git
+git clone　https://github.com/USERNAME/REPOSITORYNAME.git
 ```
