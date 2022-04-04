@@ -40,7 +40,7 @@ Next.js のテンプレートリポジトリです。
 
 - 本テンプレートを指定してリポジトリ作成
 
-- クローンしたいディレクトリで以下コマンド実行
+- クローンしたいディレクトリで以下コマンド実行 (USERNAMEとREPOSITORYNAMEは環境に応じて置き換え)
 ```
 git clone　https://github.com/USERNAME/REPOSITORYNAME.git
 ```
