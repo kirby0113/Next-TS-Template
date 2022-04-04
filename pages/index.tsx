@@ -1,9 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Test = styled.div`
-  background-color: #ff0000;
-`;
+const Test = styled.div``;
 
 const Home = () => {
   return <Test>indexページ</Test>;
