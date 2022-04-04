@@ -34,3 +34,13 @@ Next.js のテンプレートリポジトリです。
 ### その他
 
 - ress (リセット CSS)
+
+
+## 利用方法
+
+- 本テンプレートを指定してリポジトリ作成
+
+- クローンしたいディレクトリで以下コマンド実行
+```
+https://github.com/USERNAME/REPOSITORYNAME.git
+```
