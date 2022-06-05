@@ -12,5 +12,7 @@ const Meta: ComponentMeta<typeof <%= name %>Component> = {
 export default Meta;
 
 export const Template: ComponentStoryObj<typeof <%= name %>Component> = {
-  args: {},
+  args: {
+  children:"test",
+  },
 };
