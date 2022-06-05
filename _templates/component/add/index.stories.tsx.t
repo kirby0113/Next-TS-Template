@@ -2,19 +2,15 @@
 to: stories/<%= name %>.stories.tsx
 unless_exists: true
 ---
-import React from "react";
-import { Story, Meta } from "@storybook/react";
-import { <%= name %> as <%= name %>Component,<%= name %>Props } from "../components/<%= name %>";
+import { ComponentMeta, ComponentStoryObj } from "@storybook/react";
+import { <%= name %> as <%= name %>Component } from "../components/<%= name %>";
 
-export default {
-  title: "Components",
+const Meta: ComponentMeta<typeof <%= name %>Component> = { 
+  title:"Components",
   component: <%= name %>Component,
-  argTypes: {},
-} as Meta;
+};
+export default Meta;
 
-const Template: Story<<%= name %>Props> = (args) => <<%= name %>Component {...args} />;
-
-export const <%= name %> = Template.bind({});
-<%= name %>.args = {
-  purpose:"purpose",
+export const Template: ComponentStoryObj<typeof <%= name %>Component> = {
+  args: {},
 };
